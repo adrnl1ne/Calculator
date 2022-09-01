@@ -1,11 +1,11 @@
 package com.example.calculator.domain;
 
 public class Addition {
-    private int num1;
-    private int num2;
+    private double num1;
+    private double num2;
 
 
-    public int getNum1() {
+    public double getNum1() {
         return num1;
     }
 
@@ -13,7 +13,7 @@ public class Addition {
         this.num1 = num1;
     }
 
-    public int getNum2() {
+    public double getNum2() {
         return num2;
     }
 
@@ -21,7 +21,7 @@ public class Addition {
         this.num2 = num2;
     }
 
-    public int Total() {
+    public double Total() {
         return num1 + num2;
     }
 }
