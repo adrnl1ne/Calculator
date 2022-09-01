@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div>
+    <h1>Add Two Numbers</h1>
+</div>
+<form th:action="@{addition}" th:object="${addition}" method="post">
+<div>
+    <label>First Number</label>
+    <input type="text" id="num1" class="form-control" name="num1">
+</div>
+<div>
+    <label>Second Number</label>
+    <input type="text" id="num2" class="form-control" name="num2">
+</div>
+</br>
+    <div>
+        <input type="submit" value="submit">
+    </div>
+</form>
+</div>
+</div>
+
+</body>
+</html>
